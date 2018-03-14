@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct NewsInfo: Decodable {
+    let POST_DATE: String
+    let POST_TITLE: String
+    let IMAGE: String
+    let POST_CONTENT: String
+}
+
