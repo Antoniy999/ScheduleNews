@@ -66,7 +66,11 @@ class FullStoryViewController: UIViewController {
     var news: NewsInfo?
     
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
+        
+        
         
        postTitleLabel.text = news?.POST_TITLE
        postDataLabel.text = news?.POST_DATE
